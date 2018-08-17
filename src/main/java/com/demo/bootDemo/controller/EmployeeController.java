@@ -10,7 +10,7 @@ public class EmployeeController
 	@RequestMapping("/getEmployeeData")
 	public String getEmployeeData()
 	{
-		return "Hello";
+		return "Hello world";
 	}
 
 }
