@@ -1,8 +1,15 @@
 package com.demo.bootDemo.model;
 
+import javax.persistence.Column;
+
+import org.hibernate.annotations.Entity;
+
+@javax.persistence.Entity
 public class EmployeeModel
 {
+	@Column
 	private int eid;
+	@Column
 	private String name;
 	private String mob_no;
 	private String gender;
