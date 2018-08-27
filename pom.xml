@@ -35,6 +35,16 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		 <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>5.0.4.RELEASE</version>
+		</dependency>
+		 <dependency>
+  			 <groupId>com.microsoft.sqlserver</groupId>
+   			<artifactId>sqljdbc41</artifactId>
+   			<version>4.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
